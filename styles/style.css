@@ -1,0 +1,81 @@
+@font-face{
+    font-family: mafiaFont;
+    src:url(MAFIA.TTF)
+}
+.MAFIA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: mafiaFont;
+    font-size: 10vh;
+}
+body{
+    background-image: url(./Fallout\ Gangster\ Wallpaper\ by\ HodnasX.png...);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input{
+    background-color: white;
+}
+.player{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 15vh;
+}
+.roles{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1vh;
+}
+ button{
+    width: 4vh;
+    height: 4vh;
+ }
+ .music{
+    position: absolute;
+    right: 1vh;
+    top: 1vh;
+ }
+ button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+ }
+ .dead{
+    margin-left: 5vh;
+ }
+ .reload{
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    width: 10vh;
+ }
+.foul{
+    position: relative;
+}
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.bottom-left input {
+    width: 150px; /* Adjust the width as needed */
+}
